@@ -460,3 +460,90 @@ $repo = New-GitHubRepository `
 "189","clear","Completed","01/06/2021 19:56:17","01/06/2021 19:56:17"
 "190","git push -u origin main","Completed","01/06/2021 19:56:22","01/06/2021 19:56:23"
 "191","clear","Completed","01/06/2021 19:56:35","01/06/2021 19:56:35"
+"192","Get-History | Export-CSV snippets.ps1","Completed","01/06/2021 19:57:04","01/06/2021 19:57:04"
+"193","ls?","Completed","01/06/2021 19:58:27","01/06/2021 19:58:27"
+"194","ls","Completed","01/06/2021 19:58:28","01/06/2021 19:58:28"
+"195","clear","Completed","01/06/2021 19:58:48","01/06/2021 19:58:48"
+"196","gitinit","Completed","01/06/2021 19:58:59","01/06/2021 19:58:59"
+"197","git init","Completed","01/06/2021 19:59:01","01/06/2021 19:59:01"
+"198","clear","Completed","01/06/2021 19:59:14","01/06/2021 19:59:14"
+"199","git add comit","Completed","01/06/2021 19:59:46","01/06/2021 19:59:47"
+"200","git commit","Completed","01/06/2021 19:59:50","01/06/2021 19:59:50"
+"201","git add .","Completed","01/06/2021 20:00:00","01/06/2021 20:00:00"
+"202","git commit","Completed","01/06/2021 20:00:02","01/06/2021 20:00:15"
+"203","git add .","Completed","01/06/2021 20:01:00","01/06/2021 20:01:00"
+"204","git add .","Completed","01/06/2021 20:01:01","01/06/2021 20:01:01"
+"205","git commit","Completed","01/06/2021 20:01:02","01/06/2021 20:02:46"
+"206","git push -u origin main","Completed","01/06/2021 20:02:55","01/06/2021 20:03:00"
+"207","git push -u origin main","Completed","01/06/2021 20:03:36","01/06/2021 20:03:37"
+"208","$auth = `
+[System.Convert]::ToBase64String([char[]]$creds.GetNet
+workCredential().Password)
+$headers = @{Authorization=""Basic $auth""}","Failed","01/06/2021 20:56:16","01/06/2021 20:56:16"
+"209","$auth = `
+[System.Convert]::ToBase64String([char[]]$creds.GetNet
+workCredential().Password)
+$headers = @{Authorization=""Basic $auth""}","Failed","01/06/2021 20:56:17","01/06/2021 20:56:17"
+"210","$auth = `
+[System.Convert]::ToBase64String([char[]]$creds.GetNet
+workCredential().Password)
+$headers = @{Authorization=""Basic $auth""}","Failed","01/06/2021 20:56:18","01/06/2021 20:56:18"
+"211","$auth = `
+[System.Convert]::ToBase64String([char[]]$creds.GetNet
+workCredential().Password)
+$headers = @{Authorization=""Basic $auth""}","Failed","01/06/2021 20:56:19","01/06/2021 20:56:19"
+"212","$auth = `
+[System.Convert]::ToBase64String([char[]]$creds.GetNet
+workCredential().Password)
+$headers = @{Authorization=""Basic $auth""}","Failed","01/06/2021 20:56:20","01/06/2021 20:56:20"
+"213","clear","Completed","01/06/2021 20:56:26","01/06/2021 20:56:26"
+"214","$auth = `
+[System.Convert]::ToBase64String([char[]]$creds.GetNet
+workCredential().Password)","Failed","01/06/2021 21:38:55","01/06/2021 21:38:55"
+"215","clear","Completed","01/06/2021 21:43:44","01/06/2021 21:43:44"
+"216","$auth = [System.Convert]::ToBase64String([char[]]$creds.GetNet
+workCredential().Password)","Failed","01/06/2021 21:43:57","01/06/2021 21:43:57"
+"217","cls","Completed","01/06/2021 21:44:00","01/06/2021 21:44:00"
+"218","cls","Completed","01/06/2021 21:44:05","01/06/2021 21:44:05"
+"219","clr","Completed","01/06/2021 21:44:06","01/06/2021 21:44:06"
+"220","cls","Completed","01/06/2021 21:44:07","01/06/2021 21:44:07"
+"221","Read-Host -AsSecureString -Prompt ?token? |
+ConvertFrom-SecureString |
+Tee-Object .\secret.txt |
+ConvertTo-SecureString |
+Set-Variable ss_token","Completed","01/06/2021 21:44:37","01/06/2021 21:44:45"
+"222","$auth = `
+[System.Convert]::ToBase64String([char[]]$creds.GetNet
+workCredential().Password)","Failed","01/06/2021 21:45:22","01/06/2021 21:45:22"
+"223","CLS","Completed","01/06/2021 21:45:24","01/06/2021 21:45:24"
+"224","$auth = `
+[System.Convert]::ToBase64String([char[]]$creds.GetNetworkCredential().Password)","Completed","01/06/2021 21:45:50","01/06/2021 21:45:50"
+"225","$headers = @{Authorization=""Basic $auth""}","Completed","01/06/2021 21:46:00","01/06/2021 21:46:00"
+"226","https://api.github.com/user","Completed","01/06/2021 21:46:09","01/06/2021 21:46:09"
+"227","CLEAR","Completed","01/06/2021 21:46:23","01/06/2021 21:46:23"
+"228","Invoke-RestMethod -Headers $headers `
+https://api.github.com/user","Completed","01/06/2021 21:47:13","01/06/2021 21:47:14"
+"229","get /user/kegs","Completed","01/06/2021 21:54:57","01/06/2021 21:54:57"
+"230","clear","Completed","01/06/2021 21:55:00","01/06/2021 21:55:00"
+"231","clear","Completed","01/06/2021 21:55:13","01/06/2021 21:55:13"
+"232","cd C:\Users\Windows\.ssh","Completed","01/06/2021 21:57:22","01/06/2021 21:57:22"
+"233","ls","Completed","01/06/2021 21:57:25","01/06/2021 21:57:25"
+"234","cat ~/.sh","Completed","01/06/2021 21:58:09","01/06/2021 21:58:10"
+"235","cat ~/.shh/id_rsa.pub","Completed","01/06/2021 21:58:18","01/06/2021 21:58:18"
+"236","clear","Completed","01/06/2021 21:58:20","01/06/2021 21:58:20"
+"237","clear","Completed","01/06/2021 21:58:21","01/06/2021 21:58:21"
+"238","cat ~/.shh/id_rsa.pub","Completed","01/06/2021 21:58:24","01/06/2021 21:58:24"
+"239","cat C:\Users\Windows\.ssh\id_rsa.pub","Completed","01/06/2021 21:58:54","01/06/2021 21:58:54"
+"240","git commit","Completed","01/06/2021 22:00:37","01/06/2021 22:00:37"
+"241","git add .","Completed","01/06/2021 22:00:45","01/06/2021 22:00:45"
+"242","git commit ","Completed","01/06/2021 22:01:00","01/06/2021 22:01:00"
+"243","clear","Completed","01/06/2021 22:01:03","01/06/2021 22:01:03"
+"244","cd C:\Users\Windows\.ssh\MorePowerShellForGithub","Completed","01/06/2021 22:01:39","01/06/2021 22:01:39"
+"245","git add .","Completed","01/06/2021 22:01:50","01/06/2021 22:01:50"
+"246","git commit","Completed","01/06/2021 22:01:53","01/06/2021 22:02:30"
+"247","git push","Completed","01/06/2021 22:02:33","01/06/2021 22:02:35"
+"248","git push -u origin main","Completed","01/06/2021 22:02:45","01/06/2021 22:02:46"
+"249","Invoke-RestMethod -Headers $headers  -Body ' {""company"" =""AP Hogeschool - Antwerpen""} ' -Method Patch","Completed","01/06/2021 22:10:03","01/06/2021 22:10:33"
+"250","Invoke-RestMethod -Headers $headers -Uri https://api.github.com/user -Body '{""company"": ""AP Hogeschool - Antwerpen""}' -Method Patch","Completed","01/06/2021 22:11:09","01/06/2021 22:11:10"
+"251","clear","Completed","01/06/2021 22:11:12","01/06/2021 22:11:12"
+"252","git add .","Completed","01/06/2021 22:11:15","01/06/2021 22:11:15"
